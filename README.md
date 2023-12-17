@@ -2,6 +2,7 @@
 黑马大事件(SpringBoot3 + Vue3), B站教学视频(https://www.bilibili.com/video/BV14z4y1N7pg/?spm_id_from=333.337.search-card.all.click)
 # 软件架构
 后端：springboot+maven+mybatis+mysql+redis+lombok+validation+JWT+pageHelper+Ali OSS
+
 前端：vue3+vue-router+axios+element-plus+pinia
 # 项目组成
 * 前端：bit-event-vue
