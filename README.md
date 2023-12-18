@@ -16,6 +16,7 @@ https://www.showdoc.com.cn/escook/3707372986195375
 # 个人点评
 * 在登录注册时，使用JWT生成token，并保存到redis中，在每次请求时，在请求头中携带token，在拦截器中验证token是否有效，如果token无效，则返回401状态码，提示“token无效”。
 * 利用 @Validated 注解进行数据校验。
+* 使用 @RestControllerAdvice 注解统一处理全局异常。
 # 安装说明
 1. 运行项目前，请先安装好mysql和redis
 2. 运行项目前，请先修改application.yaml中的数据库和redis配置
